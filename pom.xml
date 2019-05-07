@@ -65,6 +65,8 @@
           <url>http://localhost:8080/manager/text</url>
 		  <server>TomcatServer</server>
 			<path>/achat</path>
+			        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
 			<update>true</update>
         </configuration>
       </plugin>
